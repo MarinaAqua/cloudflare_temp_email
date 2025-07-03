@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD033 MD045 -->
-# 🚀 Cloudflare 临时邮箱 - 免费搭建临时邮件服务
+# 🚀 Cloudflare Temp Email - Layanan Email Sementara Gratis
 
 <p align="center">
   <a href="https://temp-mail-docs.awsl.uk" target="_blank">
@@ -29,36 +29,36 @@
 </p>
 
 <p align="center">
-  <a href="README.md">🇨🇳 中文文档</a> |
+  <a href="README.md">🇨🇳 Chinese Document</a> |
   <a href="README_EN.md">🇺🇸 English Document</a>
 </p>
 
-> 本项目仅供学习和个人用途，请勿将其用于任何违法行为，否则后果自负。
+> Proyek ini hanya untuk pembelajaran dan penggunaan pribadi. Harap jangan menggunakannya untuk kegiatan ilegal apa pun, jika tidak, Anda akan bertanggung jawab atas konsekuensinya.
 
-**🎉 一个功能完整的临时邮箱服务！**
+**🎉 Layanan email sementara berfitur lengkap!**
 
-- 🆓 **完全免费** - 基于 Cloudflare 免费服务构建，零成本运行
-- ⚡ **高性能** - Rust WASM 邮件解析，响应速度极快
-- 🎨 **现代化界面** - 响应式设计，支持多语言，操作简便
+- 🆓 **Sepenuhnya gratis** - berdasarkan Cloudflare Layanan gratis untuk membangun, tanpa biaya operasional
+- ⚡ **kinerja tinggi** - Rust WASM Penguraian email, respons sangat cepat
+- 🎨 **Antarmuka modern** - Desain responsif, dukungan multibahasa, pengoperasian mudah
 
-## 📚 部署文档 - 快速开始
+## 📚 Dokumentasi Penerapan - Mulai Cepat
 
-[📖 部署文档](https://temp-mail-docs.awsl.uk) | [🚀 Github Action 部署文档](https://temp-mail-docs.awsl.uk/zh/guide/actions/github-action.html)
+[📖 Dokumentasi penyebaran](https://temp-mail-docs.awsl.uk) | [🚀 Github Action Dokumentasi penyebaran](https://temp-mail-docs.awsl.uk/zh/guide/actions/github-action.html)
 
 <a href="https://temp-mail-docs.awsl.uk/zh/guide/actions/github-action.html">
   <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare Workers" height="32">
 </a>
 
-## 📝 更新日志
+## 📝 Catatan Perubahan
 
-查看 [CHANGELOG](CHANGELOG.md) 了解最新更新内容。
+Memeriksa [CHANGELOG](CHANGELOG.md) Cari tahu tentang pembaruan terkini.
 
-## 🎯 在线体验
+## 🎯 Pengalaman Daring
 
-立即体验 → [https://mail.awsl.uk/](https://mail.awsl.uk/)
+Cobalah sekarang → [https://mail.awsl.uk/](https://mail.awsl.uk/)
 
 <details>
-<summary>📊 服务状态监控（点击收缩/展开）</summary>
+<summary>📊 Pemantauan status layanan (klik untuk memperkecil/memperluas) </summary>
 
 |                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -68,7 +68,7 @@
 </details>
 
 <details>
-<summary>⭐ Star History（点击收缩/展开）</summary>
+<summary>⭐ Star History（Klik untuk menutup/memperluas）</summary>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=dreamhunter2333/cloudflare_temp_email&type=Date&theme=dark" />
@@ -79,109 +79,109 @@
 </details>
 
 <details open>
-<summary>📖 目录（点击收缩/展开）</summary>
+<summary>📖 Daftar Isi (klik untuk memperkecil/memperluas) </summary>
 
-- [🚀 Cloudflare 临时邮箱 - 免费搭建临时邮件服务](#-cloudflare-临时邮箱---免费搭建临时邮件服务)
-  - [📚 部署文档 - 快速开始](#-部署文档---快速开始)
-  - [📝 更新日志](#-更新日志)
-  - [🎯 在线体验](#-在线体验)
-  - [✨ 核心功能](#-核心功能)
-    - [📧 邮件处理](#-邮件处理)
-    - [👥 用户管理](#-用户管理)
-    - [🔧 管理功能](#-管理功能)
-    - [🌐 多语言与界面](#-多语言与界面)
-    - [🤖 集成与扩展](#-集成与扩展)
-  - [🏗️ 技术架构](#️-技术架构)
-    - [🏛️ 系统架构](#️-系统架构)
-    - [🛠️ 技术栈](#️-技术栈)
-    - [📦 主要组件](#-主要组件)
-  - [🌟 加入社区](#-加入社区)
+- [🚀 Cloudflare Email Sementara - Layanan Email Sementara Gratis](#-cloudflare-Email sementara---layanan email sementara gratis)
+  - [📚 Dokumentasi Penerapan - Mulai Cepat](#-Dokumentasi Penerapan---Mulai Cepat)
+  - [📝 Catatan Perubahan](#-Changelog)
+  - [🎯 Pengalaman daring](#-pengalaman daring)
+  - [✨ Fungsi Inti](#-Fungsi Inti)
+    - [📧 Pemrosesan Surat](#-Pemrosesan Surat)
+    - [👥 Manajemen Pengguna](#-Manajemen Pengguna)
+    - [🔧 Fungsi manajemen](#-Fungsi manajemen)
+    - [🌐 Multibahasa dan antarmuka](#-Multibahasa dan antarmuka)
+    - [🤖 Integrasi dan Ekstensi](#-Integrasi dan Ekstensi)
+  - [🏗️ Arsitektur teknis](#️-Arsitektur teknis)
+    - [🏛️ Arsitektur sistem](#️-Arsitektur sistem)
+    - [Tumpukan Teknologi🛠️](#️-Tumpukan Teknologi)
+    - [📦 Komponen utama](#-Komponen utama)
+  - [🌟 Bergabunglah dengan komunitas](#-Bergabunglah dengan komunitas)
 
 </details>
 
-## ✨ 核心功能
+## ✨ Fitur Inti
 
 <details open>
-<summary>✨ 核心功能详情（点击收缩/展开）</summary>
+<summary>✨ Detail fungsi inti (klik untuk memperkecil/memperluas) </summary>
 
-### 📧 邮件处理
+### 📧 Pemrosesan surat
 
-- [x] 使用 `rust wasm` 解析邮件，解析速度快，几乎所有邮件都能解析，node 的解析模块解析邮件失败的邮件，rust wasm 也能解析成功
-- [x] 支持发送邮件，支持 `DKIM` 验证
-- [x] 支持 `SMTP` 和 `Resend` 等多种发送方式
-- [x] 增加查看 `附件` 功能，支持附件图片显示
-- [x] 支持 S3 附件存储和删除功能
-- [x] 垃圾邮件检测和黑白名单配置
-- [x] 邮件转发功能，支持全局转发地址
+- [x] Gunakan `rust wasm` untuk mengurai email. Kecepatan penguraiannya cepat dan hampir semua email dapat diurai. Rust wasm juga dapat mengurai email yang gagal diurai oleh modul pengurai node dengan sukses.
+- [x] Mendukung pengiriman email，mendukung `DKIM` memeriksa
+- [x] mendukung `SMTP` Dan `Resend` Berbagai metode pengiriman
+- [x] Tambahkan Tampilan `lampiran` Fungsi，Mendukung tampilan gambar lampiran
+- [x] mendukung S3 Fungsi penyimpanan dan penghapusan lampiran
+- [x] Deteksi spam dan konfigurasi daftar hitam dan daftar putih
+- [x] Fungsi penerusan email, mendukung alamat penerusan global
 
-### 👥 用户管理
+### 👥 Manajemen Pengguna
 
-- [x] 使用 `凭证` 重新登录之前的邮箱
-- [x] 添加完整的用户注册登录功能，可绑定邮箱地址，绑定后可自动获取邮箱JWT凭证切换不同邮箱
-- [x] 支持 `OAuth2` 第三方登录（Github、Authentik 等）
-- [x] 支持 `Passkey` 无密码登录
-- [x] 用户角色管理，支持多角色域名和前缀配置
-- [x] 用户收件箱查看，支持地址和关键词过滤
+- [x] Gunakan `credentials` untuk masuk ke email sebelumnya lagi
+- [x] Tambahkan fungsi registrasi dan login pengguna lengkap，Alamat email dapat diikat，Setelah mengikat, Anda dapat secara otomatis mendapatkan sertifikat JWT kotak surat untuk beralih ke kotak surat yang berbeda
+- [x] mendukung `OAuth2` Login pihak ketiga（Github、Authentik Tunggu）
+- [x] mendukung `Passkey` Login tanpa kata sandi
+- [x] Manajemen peran pengguna，Mendukung konfigurasi nama domain dan awalan multi-peran
+- [x] Tampilan Kotak Masuk Pengguna，Mendukung penyaringan alamat dan kata kunci
 
-### 🔧 管理功能
+### 🔧 Fitur Manajemen
 
-- [x] 完整的 admin 控制台
-- [x] `admin` 后台创建无前缀邮箱
-- [x] admin 用户管理页面，增加用户地址查看功能
-- [x] 定时清理功能，支持多种清理策略
-- [x] 获取自定义名字的邮箱，`admin` 可配置黑名单
-- [x] 增加访问密码，可作为私人站点
+- [x]  Konsol admin penuh
+- [x] Buat kotak surat tanpa awalan di latar belakang `admin`
+- [x] Halaman manajemen pengguna admin, tambahkan fungsi tampilan alamat pengguna
+- [x] Fungsi pembersihan terjadwal, mendukung berbagai strategi pembersihan
+- [x] Dapatkan alamat email dengan nama khusus, `admin` dapat mengonfigurasi daftar hitam
+- [x] Tambahkan kata sandi akses, dapat digunakan sebagai situs pribadi
 
-### 🌐 多语言与界面
+### 🌐 Multibahasa dan antarmuka
 
-- [x] 前后台均支持多语言
-- [x] 现代化 UI 设计，支持响应式布局
-- [x] 支持 Google Ads 集成
-- [x] 使用 shadow DOM 防止样式污染
-- [x] 支持 URL JWT 参数自动登录
+- [x] Baik front-end maupun back-end mendukung banyak bahasa
+- [x] Desain UI modern, mendukung tata letak responsif
+- [x] Mendukung integrasi Google Ads
+- [x] Menggunakan shadow DOM untuk mencegah polusi gaya
+- [x] Mendukung parameter URL JWT login otomatis
 
-### 🤖 集成与扩展
+### 🤖 Integrasi dan perluasan
 
-- [x] 完整的 `Telegram Bot` 支持，以及 `Telegram` 推送，Telegram Bot 小程序
-- [x] 添加 `SMTP proxy server`，支持 `SMTP` 发送邮件，`IMAP` 查看邮件
-- [x] Webhook 支持，消息推送集成
-- [x] 支持 `CF Turnstile` 人机验证
-- [x] 限流配置，防止滥用
+- [x] Menyelesaikan `Telegram Bot` Dukungan, dan Dorongan `Telegram`, applet Bot Telegram
+- [x] Tambahkan `server proxy SMTP`, dukungan `SMTP` mengirim email, `IMAP` memeriksa email
+- [x] Dukungan webhook, integrasi push pesan
+- [x] Mendukung otentikasi manusia-mesin `CF Turnstile`
+- [x] Konfigurasi pembatasan arus untuk mencegah penyalahgunaan
 
 </details>
 
-## 🏗️ 技术架构
+## 🏗️ Arsitektur Teknis
 
 <details>
-<summary>🏗️ 技术架构详情（点击收缩/展开）</summary>
+<summary>🏗️ Detail arsitektur teknis (klik untuk mengecilkan/memperluas）</summary>
 
-### 🏛️ 系统架构
+### 🏛️ Arsitektur Sistem
 
-- **数据库**: Cloudflare D1 作为主数据库
-- **前端部署**: 使用 Cloudflare Pages 部署前端
-- **后端部署**: 使用 Cloudflare Workers 部署后端
-- **邮件转发**: 使用 Cloudflare Email Routing
+- **Database**: Cloudflare D1 sebagai database utama
+- **Penerapan front-end**: Terapkan front-end menggunakan Cloudflare Pages
+- **Penerapan backend**: Terapkan backend menggunakan Cloudflare Workers
+- **Penerusan Email**: Menggunakan Perutean Email Cloudflare
 
-### 🛠️ 技术栈
+### 🛠️ Tumpukan Teknologi
 
-- **前端**: Vue 3 + Vite + TypeScript
-- **后端**: TypeScript + Cloudflare Workers
-- **邮件解析**: Rust WASM (mail-parser-wasm)
-- **数据库**: Cloudflare D1 (SQLite)
-- **存储**: Cloudflare KV + R2 (可选 S3)
-- **代理服务**: Python SMTP/IMAP Proxy Server
+- **Bagian depan**: Vue 3 + Vite + TypeScript
+- **Tambahan**: TypeScript + Cloudflare Workers
+- **Penguraian Surat**: Rust WASM (mail-parser-wasm)
+- **Data Dasar**: Cloudflare D1 (SQLite)
+- **Penyimpanan**: Cloudflare KV + R2 (S3 opsional)
+- **Layanan Proksi**: Server Proksi SMTP/IMAP Python
 
 ### 📦 主要组件
 
-- **Worker**: 核心后端服务
-- **Frontend**: Vue 3 用户界面
-- **Mail Parser WASM**: Rust 邮件解析模块
-- **SMTP Proxy Server**: Python 邮件代理服务
-- **Pages Functions**: Cloudflare Pages 中间件
-- **Documentation**: VitePress 文档站点
+- **Worker**: layanan backend inti
+- **Frontend**: Vue 3 antarmuka pengguna
+- **Mail Parser WASM**: Modul penguraian surat Rust
+- **SMTP Proxy Server**: Layanan proxy email Python
+- **Pages Functions**: Middleware page Cloudflare
+- **Documentation**: Situs Dokumentasi VitePress
 
 </details>
 
-## 🌟 加入社区
+## 🌟 Bergabunglah dengan komunitas
 
 - [Telegram](https://t.me/cloudflare_temp_email)
