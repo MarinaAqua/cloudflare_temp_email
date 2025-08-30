@@ -1,9 +1,30 @@
 <!-- markdownlint-disable-file MD004 MD024 MD034 MD036 -->
 # CHANGE LOG
 
-## main(v1.0.1)
+## main(v1.0.5)
+
+- feat: |UI| 主页增加进入极简模式按钮
+
+## v1.0.4
+
+- feat: |UI| 优化极简模式主页, 增加全部邮件页面功能(删除/下载/附件/...), 可在 `外观` 中切换
+- feat: admin 账号设置页面增加 `邮件转发规则` 配置
+- feat: admin 账号设置页面增加 `禁止接收未知地址邮件` 配置
+- feat: 邮件页面增加 上一封/下一封 按钮
+
+## v1.0.3
+
+- fix: 修复 github actions 部署问题
+- feat: telegram /new 不指定域名时, 使用随机地址
+
+## v1.0.2
+
+- fix: 修复 oauth2 登录失败的问题
+
+## v1.0.1
 
 - feat: |UI| 增加极简模式主页, 可在 `外观` 中切换
+- fix: 修复 oauth2 登录时，default role 不生效的问题
 
 ## v1.0.0
 
